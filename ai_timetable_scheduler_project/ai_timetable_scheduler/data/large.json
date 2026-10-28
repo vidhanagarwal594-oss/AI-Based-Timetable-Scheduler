@@ -1,0 +1,516 @@
+{
+  "name": "Large demonstration dataset",
+  "time": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "periods_per_day": 7,
+    "break_periods": [
+      2
+    ]
+  },
+  "classes": [
+    {
+      "id": "C1",
+      "name": "BTech Batch 1",
+      "strength": 24,
+      "subjects": [
+        "S1A",
+        "S1B",
+        "S1C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C2",
+      "name": "BTech Batch 2",
+      "strength": 27,
+      "subjects": [
+        "S2A",
+        "S2B",
+        "S2C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C3",
+      "name": "BTech Batch 3",
+      "strength": 30,
+      "subjects": [
+        "S3A",
+        "S3B",
+        "S3C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C4",
+      "name": "BTech Batch 4",
+      "strength": 33,
+      "subjects": [
+        "S4A",
+        "S4B",
+        "S4C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C5",
+      "name": "BTech Batch 5",
+      "strength": 36,
+      "subjects": [
+        "S5A",
+        "S5B",
+        "S5C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C6",
+      "name": "BTech Batch 6",
+      "strength": 24,
+      "subjects": [
+        "S6A",
+        "S6B",
+        "S6C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C7",
+      "name": "BTech Batch 7",
+      "strength": 27,
+      "subjects": [
+        "S7A",
+        "S7B",
+        "S7C"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C8",
+      "name": "BTech Batch 8",
+      "strength": 30,
+      "subjects": [
+        "S8A",
+        "S8B",
+        "S8C"
+      ],
+      "lunch_period": 3
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T1",
+      "name": "Teacher 1",
+      "subjects": [
+        "S1A",
+        "S8C"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T2",
+      "name": "Teacher 2",
+      "subjects": [
+        "S1B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T3",
+      "name": "Teacher 3",
+      "subjects": [
+        "S1C",
+        "S2A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T4",
+      "name": "Teacher 4",
+      "subjects": [
+        "S2B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T5",
+      "name": "Teacher 5",
+      "subjects": [
+        "S2C",
+        "S3A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T6",
+      "name": "Teacher 6",
+      "subjects": [
+        "S3B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T7",
+      "name": "Teacher 7",
+      "subjects": [
+        "S3C",
+        "S4A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T8",
+      "name": "Teacher 8",
+      "subjects": [
+        "S4B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T9",
+      "name": "Teacher 9",
+      "subjects": [
+        "S4C",
+        "S5A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T10",
+      "name": "Teacher 10",
+      "subjects": [
+        "S5B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T11",
+      "name": "Teacher 11",
+      "subjects": [
+        "S5C",
+        "S6A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T12",
+      "name": "Teacher 12",
+      "subjects": [
+        "S6B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T13",
+      "name": "Teacher 13",
+      "subjects": [
+        "S6C",
+        "S7A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T14",
+      "name": "Teacher 14",
+      "subjects": [
+        "S7B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T15",
+      "name": "Teacher 15",
+      "subjects": [
+        "S7C",
+        "S8A"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    },
+    {
+      "id": "T16",
+      "name": "Teacher 16",
+      "subjects": [
+        "S8B"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18
+    }
+  ],
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Room 1",
+      "capacity": 50,
+      "type": "theory"
+    },
+    {
+      "id": "R2",
+      "name": "Room 2",
+      "capacity": 50,
+      "type": "theory"
+    },
+    {
+      "id": "R3",
+      "name": "Room 3",
+      "capacity": 50,
+      "type": "theory"
+    },
+    {
+      "id": "R4",
+      "name": "Room 4",
+      "capacity": 50,
+      "type": "theory"
+    },
+    {
+      "id": "R5",
+      "name": "Room 5",
+      "capacity": 50,
+      "type": "theory"
+    },
+    {
+      "id": "R6",
+      "name": "Room 6",
+      "capacity": 50,
+      "type": "theory"
+    },
+    {
+      "id": "R7",
+      "name": "Room 7",
+      "capacity": 40,
+      "type": "lab"
+    },
+    {
+      "id": "R8",
+      "name": "Room 8",
+      "capacity": 40,
+      "type": "lab"
+    },
+    {
+      "id": "R9",
+      "name": "Room 9",
+      "capacity": 40,
+      "type": "lab"
+    },
+    {
+      "id": "R10",
+      "name": "Room 10",
+      "capacity": 40,
+      "type": "lab"
+    }
+  ],
+  "subjects": [
+    {
+      "code": "S1A",
+      "name": "Subject S1A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T1",
+      "session_length": 1
+    },
+    {
+      "code": "S1B",
+      "name": "Subject S1B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T2",
+      "session_length": 1
+    },
+    {
+      "code": "S1C",
+      "name": "Subject S1C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T3",
+      "session_length": 2
+    },
+    {
+      "code": "S2A",
+      "name": "Subject S2A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T3",
+      "session_length": 1
+    },
+    {
+      "code": "S2B",
+      "name": "Subject S2B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T4",
+      "session_length": 1
+    },
+    {
+      "code": "S2C",
+      "name": "Subject S2C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T5",
+      "session_length": 2
+    },
+    {
+      "code": "S3A",
+      "name": "Subject S3A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T5",
+      "session_length": 1
+    },
+    {
+      "code": "S3B",
+      "name": "Subject S3B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T6",
+      "session_length": 1
+    },
+    {
+      "code": "S3C",
+      "name": "Subject S3C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T7",
+      "session_length": 2
+    },
+    {
+      "code": "S4A",
+      "name": "Subject S4A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T7",
+      "session_length": 1
+    },
+    {
+      "code": "S4B",
+      "name": "Subject S4B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T8",
+      "session_length": 1
+    },
+    {
+      "code": "S4C",
+      "name": "Subject S4C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T9",
+      "session_length": 2
+    },
+    {
+      "code": "S5A",
+      "name": "Subject S5A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T9",
+      "session_length": 1
+    },
+    {
+      "code": "S5B",
+      "name": "Subject S5B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T10",
+      "session_length": 1
+    },
+    {
+      "code": "S5C",
+      "name": "Subject S5C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T11",
+      "session_length": 2
+    },
+    {
+      "code": "S6A",
+      "name": "Subject S6A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T11",
+      "session_length": 1
+    },
+    {
+      "code": "S6B",
+      "name": "Subject S6B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T12",
+      "session_length": 1
+    },
+    {
+      "code": "S6C",
+      "name": "Subject S6C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T13",
+      "session_length": 2
+    },
+    {
+      "code": "S7A",
+      "name": "Subject S7A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T13",
+      "session_length": 1
+    },
+    {
+      "code": "S7B",
+      "name": "Subject S7B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T14",
+      "session_length": 1
+    },
+    {
+      "code": "S7C",
+      "name": "Subject S7C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T15",
+      "session_length": 2
+    },
+    {
+      "code": "S8A",
+      "name": "Subject S8A",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T15",
+      "session_length": 1
+    },
+    {
+      "code": "S8B",
+      "name": "Subject S8B",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T16",
+      "session_length": 1
+    },
+    {
+      "code": "S8C",
+      "name": "Subject S8C",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T1",
+      "session_length": 2
+    }
+  ]
+}

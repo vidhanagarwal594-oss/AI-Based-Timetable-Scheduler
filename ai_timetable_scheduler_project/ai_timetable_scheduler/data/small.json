@@ -1,0 +1,233 @@
+{
+  "name": "Small demonstration dataset",
+  "time": {
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "periods_per_day": 6,
+    "break_periods": [
+      2
+    ]
+  },
+  "classes": [
+    {
+      "id": "C1",
+      "name": "BTech CSE-A",
+      "strength": 28,
+      "subjects": [
+        "MATH",
+        "PY",
+        "DS"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C2",
+      "name": "BTech CSE-B",
+      "strength": 26,
+      "subjects": [
+        "MATH2",
+        "WEB",
+        "DB"
+      ],
+      "lunch_period": 3
+    },
+    {
+      "id": "C3",
+      "name": "BTech IT-A",
+      "strength": 24,
+      "subjects": [
+        "AI",
+        "PY2",
+        "NET"
+      ],
+      "lunch_period": 3
+    }
+  ],
+  "teachers": [
+    {
+      "id": "T1",
+      "name": "Dr Sharma",
+      "subjects": [
+        "MATH"
+      ],
+      "unavailable_slots": [
+        [
+          "Monday",
+          0
+        ]
+      ],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T2",
+      "name": "Ms Khan",
+      "subjects": [
+        "PY"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T3",
+      "name": "Mr Verma",
+      "subjects": [
+        "DS"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T4",
+      "name": "Dr Rao",
+      "subjects": [
+        "MATH2"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T5",
+      "name": "Ms Singh",
+      "subjects": [
+        "WEB"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T6",
+      "name": "Mr Das",
+      "subjects": [
+        "DB"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T7",
+      "name": "Dr Ali",
+      "subjects": [
+        "AI"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T8",
+      "name": "Ms Patel",
+      "subjects": [
+        "PY2"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    },
+    {
+      "id": "T9",
+      "name": "Mr Gupta",
+      "subjects": [
+        "NET"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12
+    }
+  ],
+  "rooms": [
+    {
+      "id": "R1",
+      "name": "Room 101",
+      "capacity": 40,
+      "type": "theory"
+    },
+    {
+      "id": "R2",
+      "name": "Room 102",
+      "capacity": 35,
+      "type": "theory"
+    },
+    {
+      "id": "R3",
+      "name": "Programming Lab",
+      "capacity": 35,
+      "type": "lab"
+    },
+    {
+      "id": "R4",
+      "name": "Network Lab",
+      "capacity": 30,
+      "type": "lab"
+    }
+  ],
+  "subjects": [
+    {
+      "code": "MATH",
+      "name": "Mathematics",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T1"
+    },
+    {
+      "code": "PY",
+      "name": "Python Programming",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T2"
+    },
+    {
+      "code": "DS",
+      "name": "Data Structures Lab",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T3",
+      "session_length": 2
+    },
+    {
+      "code": "MATH2",
+      "name": "Discrete Mathematics",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T4"
+    },
+    {
+      "code": "WEB",
+      "name": "Web Development",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T5"
+    },
+    {
+      "code": "DB",
+      "name": "Database Lab",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T6",
+      "session_length": 2
+    },
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T7"
+    },
+    {
+      "code": "PY2",
+      "name": "Python Lab",
+      "weekly_hours": 2,
+      "type": "lab",
+      "teacher_id": "T8",
+      "session_length": 2
+    },
+    {
+      "code": "NET",
+      "name": "Computer Networks",
+      "weekly_hours": 3,
+      "type": "theory",
+      "teacher_id": "T9"
+    }
+  ]
+}
